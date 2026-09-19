@@ -9,11 +9,11 @@ const Footer = () => {
                 <span className="absolute left-0 top-1 h-4 w-4 rounded-full bg-brand-500"></span>
                 <span className="absolute right-0 top-0 h-3.5 w-3.5 rounded-full bg-brand-300"></span>
               </span>
-              <span className="text-lg font-bold tracking-tight text-white">
+              <span className="display text-lg text-white">
                 Novi
               </span>
             </a>
-            <p className="mt-4 max-w-60 text-sm leading-6">
+            <p className="mt-4 max-w-[38ch] text-sm">
               Project and task management for small, fast-moving teams.
             </p>
 
@@ -21,7 +21,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Twitter"
-                className="text-slate-400 transition hover:text-white"
+                className="rounded-sm text-slate-400 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
               >
                 <svg
                   className="h-4 w-4"
@@ -34,7 +34,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="LinkedIn"
-                className="text-slate-400 transition hover:text-white"
+                className="rounded-sm text-slate-400 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
               >
                 <svg
                   className="h-4 w-4"
@@ -47,7 +47,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="GitHub"
-                className="text-slate-400 transition hover:text-white"
+                className="rounded-sm text-slate-400 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
               >
                 <svg
                   className="h-4 w-4"
@@ -60,7 +60,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="YouTube"
-                className="text-slate-400 transition hover:text-white"
+                className="rounded-sm text-slate-400 transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
               >
                 <svg
                   className="h-4 w-4"
@@ -74,25 +74,25 @@ const Footer = () => {
           </div>
 
           <nav>
-            <h3 className="text-sm font-semibold text-white">Product</h3>
+            <h3 className="text-sm font-semibold tracking-tight text-white">Product</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Integrations
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Changelog
                 </a>
               </li>
@@ -100,25 +100,25 @@ const Footer = () => {
           </nav>
 
           <nav>
-            <h3 className="text-sm font-semibold text-white">Company</h3>
+            <h3 className="text-sm font-semibold tracking-tight text-white">Company</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Careers
                 </a>
               </li>
               <li>
-                <a href="#" className="transition hover:text-white">
+                <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
                   Contact
                 </a>
               </li>
@@ -126,7 +126,7 @@ const Footer = () => {
           </nav>
 
           <div>
-            <h3 className="text-sm font-semibold text-white">
+            <h3 className="text-sm font-semibold tracking-tight text-white">
               Stay in the loop
             </h3>
             <p className="mt-4 text-sm">Get product updates and team tips.</p>
@@ -142,7 +142,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="shrink-0 rounded-lg bg-brand-500 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-600"
+                className="shrink-0 rounded-lg bg-brand-500 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400"
               >
                 Subscribe
               </button>
@@ -151,12 +151,12 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2025 Novi. All rights reserved.</p>
+          <p>© 2026 Novi. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="transition hover:text-white">
+            <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
               Privacy Policy
             </a>
-            <a href="#" className="transition hover:text-white">
+            <a href="#" className="rounded-sm transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400">
               Terms of Service
             </a>
           </div>
